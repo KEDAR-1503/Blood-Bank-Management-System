@@ -1,0 +1,380 @@
+#loginButton{
+    background-color: seagreen;
+}
+
+#loginTypeHeading{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 10vh;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#loginTypeMainContainer{
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: white;
+}
+#loginTypeMainContainer span{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border-right: 1px solid lightgray;
+    cursor: pointer;
+    text-align: center;
+}
+#loginTypeMainContainer div{
+    width: max-content;
+}
+
+.buttonWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.buttonWrapper:hover{
+    transform: scale(1.1);
+    background: #F0F0F0	;
+    box-shadow: none;
+    border: 1px solid lightgrey;
+
+}
+
+#loginTypeMainContainer img{
+    height: 30vh;
+    padding: 5vh;
+    pointer-events: none;
+
+}
+
+#findbloodMainPage{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#findOptionsContainer>div{
+    width: 80%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#findOptionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#resultsContainer{
+
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    /*border-left: 1px solid lightgrey;*/
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fullPage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.fullPageNav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    /*font-size: large;*/
+    background-color: darkred;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.formArea{
+    display: flex;
+
+    width: inherit;
+    height: 75vh;
+    background-color: white;
+}
+
+.dashOperationArea{
+    padding-left: 10px;
+}
+
+.dashOperationArea div{
+    padding: 5px;
+}
+
+.workArea{
+    display: flex;
+    width: 100vw;
+
+}
+
+.dashOptionsArea{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 85vh;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.forminnerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
+.wrapperforRegForm{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.dashOptionsArea button{
+    width: 85%;
+}
+
+.dashOptionsArea button:hover{
+ background-color: seagreen;
+}
+
+.submitArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 20vh;
+    gap:10px;
+    background-color: white;
+}
+.submitArea button{
+    height: max-content;
+    width: 20vw;
+
+}
+.footerBar{
+    display: flex;
+    font-size: small;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: #e2e3e5;
+}
+
+#resethospitalregform{
+    background-color: indianred;
+}
+
+#submithospitalregform{
+    background-color: seagreen;
+}
+
+.operationsButtonsContainer{
+    display: flex;
+    width: 84vw;
+    background-color: lightgrey;
+    height: max-content;
+    align-items: center;
+    justify-content: space-around;
+}
+.operationsButtonsContainer button{
+    outline: none;
+    padding: 10px;
+    width: 15vw;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+.operationsButtonsContainer button:hover{
+    background-color: seagreen;
+    color: white;
+}
+
+
+table {
+    /*font-family: arial, sans-serif;*/
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    width: 2vw;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.popUpWindow{
+    display: flex;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.formMainContainer{
+    height: max-content;
+    width: 80vw;
+    overflow-y: auto;
+    background-color: white;
+}
+.closePopUpWindow{
+    display: block;
+    width: 100%;
+    background-color: indianred;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.popUpformSubmitArea{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.popUpformSubmitArea button{
+    width: 10vw;
+}
+.customInputSection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#pimage{
+    position: relative;
+    right: 0;
+}
+
+
+.patientsearchArea{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+#alogout,#hlogout{
+    background-color: white;
+    color: black;
+}
+
+#alogout:hover{
+    background-color: seagreen;
+    color: white;
+}
+
+
+#hlogout:hover{
+    background-color: seagreen;
+    color: white;
+}
+#hosType,#bbType{
+    margin-left: 10px;
+}
+
+.regHeader{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    font-size: x-large;
+    z-index: 4;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#updateDArea{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.homeMain{
+    display: flex;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    #findbloodMainPage{
+        flex-direction: column;
+    }
+    #findOptionsContainer{
+        width: 100%;
+    }
+
+    #loginTypeMainContainer {
+        flex-direction: column;
+    }
+
+    #loginTypeMainContainer span {
+        height: 50vh;
+    }
+
+    #loginTypeMainContainer img {
+        height: 20vh;
+    }
+
+    #loginTypeHeading {
+        padding-top: 1px;
+    }
+}
